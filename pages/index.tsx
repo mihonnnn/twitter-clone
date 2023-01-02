@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Sidebar from '../components/Sidebar'
 import Timeline from '../components/Timeline'
+import Widget from '../components/Widget'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         {/* Timeline */}
         <Timeline />
         {/* Widget */}
+        <Widget />
       </div>
     </>
   )
