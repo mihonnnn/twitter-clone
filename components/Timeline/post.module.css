@@ -6,7 +6,7 @@
 
 .post__body {
   flex: 1;
-  padding: 10px;
+  margin: 0 30px 15px 0;
 }
 
 .post__body > img {
@@ -23,6 +23,10 @@
 .post__headerDescription {
   margin-bottom: 10px;
   font-size: 15px;
+}
+.post__headerDescription > p {
+  margin: 0;
+  padding: 0;
 }
 
 .post__headerText > h3 {
@@ -42,5 +46,5 @@
 }
 
 .post__avatar {
-  padding: 20px;
+  padding: 15px;
 }
